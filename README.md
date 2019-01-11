@@ -1,2 +1,0 @@
-# hoc
-Created with CodeSandbox
