@@ -14,11 +14,11 @@ import React, { Component } from 'react'
 // }
 
 // You can also return a stateful component
-const withClass = (WrappedComponent, className) => {
+const withClass = (WrappedComponent, styles) => {
 	return class extends Component {
 		render() {
 			return (
-				<div className={className}>
+				<div style={styles}>
 					<WrappedComponent {...this.props} />
 				</div>
 			)
